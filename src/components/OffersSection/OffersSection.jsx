@@ -2,8 +2,20 @@ import React from 'react';
 import s from './OffersSection.module.css';
 import { offers_menu } from '../../data/data';
 import ProductItem from '../ProductItem/ProductItem';
+import Slider from 'react-slick';
+import { novelties_list } from '../../data/data';
+import './slick_styles.css'
 
 export default function OffersSection() {
+
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 1000,
+    slidesToShow: 4,
+    slidesToScroll: 1
+  }
+
   return (
     <>
       <div className={s.offers_section}>
@@ -16,7 +28,11 @@ export default function OffersSection() {
       </div>
       <div className={s.tab_inner}>
         <div className='container'>
-          <ProductItem />
+          <div className={s.slider_inner}>
+            <Slider {...settings}>
+              {novelties_list.map(elem => <ProductItem {...elem} key={elem.id} />)}
+            </Slider>
+          </div>
         </div>
 
       </div>

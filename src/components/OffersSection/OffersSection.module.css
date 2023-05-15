@@ -22,3 +22,7 @@
 .tab_inner {
   background-color: var(--coal);
 }
+
+.slider_inner {
+  padding: 56px 0 108px;
+}

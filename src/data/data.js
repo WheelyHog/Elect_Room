@@ -220,8 +220,8 @@ export const novelties_list = [
     id: 1,
     title: 'Screwdriver bit',
     tag: 'new',
-    price: 500,
-    discount_price: 720,
+    price: 720,
+    discount_price: 500,
     in_stock: true,
     image: 'bit.png',
     link: '#'
@@ -230,8 +230,8 @@ export const novelties_list = [
     id: 2,
     title: 'Garden pitchfork',
     tag: 'new',
-    price: 500,
-    discount_price: 720,
+    price: 720,
+    discount_price: 500,
     in_stock: true,
     image: 'pitchfork.png',
     link: '#'
@@ -240,8 +240,8 @@ export const novelties_list = [
     id: 3,
     title: 'Metal scissors',
     tag: 'new',
-    price: 500,
-    discount_price: 720,
+    price: 720,
+    discount_price: 500,
     in_stock: true,
     image: 'metal_scissors.png',
     link: '#'
@@ -250,8 +250,8 @@ export const novelties_list = [
     id: 4,
     title: 'Snow shovel',
     tag: 'new',
-    price: 500,
-    discount_price: 720,
+    price: 720,
+    discount_price: 500,
     in_stock: true,
     image: 'snow_shovel.png',
     link: '#'
@@ -260,8 +260,8 @@ export const novelties_list = [
     id: 5,
     title: 'Screwdriver',
     tag: 'new',
-    price: 500,
-    discount_price: 720,
+    price: 720,
+    discount_price: 500,
     in_stock: true,
     image: 'screwdriver.png',
     link: '#'
@@ -270,10 +270,39 @@ export const novelties_list = [
     id: 6,
     title: 'Some kind of bullshit',
     tag: 'new',
-    price: 500,
-    discount_price: 720,
+    price: 720,
+    discount_price: 500,
     in_stock: true,
     image: 'bullshit.png',
     link: '#'
   }
+]
+
+// ============================================================
+
+export const news_list = [
+  {
+    id: 1,
+    title: 'News title',
+    image: 'news1.png',
+    date: '12th of January 2023'
+  },
+  {
+    id: 2,
+    title: 'News title',
+    image: 'news2.png',
+    date: '12th of January 2023'
+  },
+  {
+    id: 3,
+    title: 'News title',
+    image: 'news2.png',
+    date: '12th of January 2023'
+  },
+  {
+    id: 4,
+    title: 'News title',
+    image: 'news1.png',
+    date: '12th of January 2023'
+  },
 ]
