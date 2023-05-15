@@ -18,7 +18,7 @@ export default function TopHeader() {
             </div>
           </div>
           <div className={s.top_menu}>
-            {top_menu_items.map(elem => <img src={elem.image} alt={elem.title} key={elem.id} />)}
+            {top_menu_items.map(elem => <img src={require('../TopHeader/assets/' + elem.image)} alt={elem.title} key={elem.id} />)}
           </div>
           <p className={s.total}>Total sum</p>
         </div>

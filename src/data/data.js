@@ -2,25 +2,25 @@ export const top_menu_items = [
   {
     id: 1,
     title: 'favorite',
-    image: './top_menu/heart.png',
+    image: 'heart.png',
     link: '#'
   },
   {
     id: 2,
     title: 'comparison',
-    image: './top_menu/bar-chart.png',
+    image: 'bar-chart.png',
     link: '#'
   },
   {
     id: 3,
     title: 'avatar',
-    image: './top_menu/avatar.png',
+    image: 'avatar.png',
     link: '#'
   },
   {
     id: 4,
     title: 'cart',
-    image: './top_menu/cart.png',
+    image: 'cart.png',
     link: '#'
   },
 ]
@@ -121,49 +121,159 @@ export const brands = [
   {
     id: 1,
     title: 'truper',
-    image: './brand_slider/truper.png',
+    image: 'truper.png',
     link: '#'
   },
   {
     id: 2,
     title: 'centro',
-    image: './brand_slider/centro.png',
+    image: 'centro.png',
     link: '#'
   },
   {
     id: 3,
     title: 'finland',
-    image: './brand_slider/finland.png',
+    image: 'finland.png',
     link: '#'
   },
   {
     id: 4,
     title: 'kapro',
-    image: './brand_slider/kapro.png',
+    image: 'kapro.png',
     link: '#'
   },
   {
     id: 5,
     title: 'ceresit',
-    image: './brand_slider/ceresit.png',
+    image: 'ceresit.png',
     link: '#'
   },
   {
     id: 6,
     title: 'sniezka',
-    image: './brand_slider/sniezka.png',
+    image: 'sniezka.png',
     link: '#'
   },
   {
     id: 7,
     title: 'pfizer',
-    image: './brand_slider/pfizer.png',
+    image: 'pfizer.png',
     link: '#'
   },
   {
     id: 8,
     title: 'farbitex',
-    image: './brand_slider/farbitex.png',
+    image: 'farbitex.png',
+    link: '#'
+  }
+]
+
+// ===================================================
+
+export const social_icons = [
+  {
+    id: 1,
+    title: 'instagram',
+    image: 'instagram.png',
+    link: '#'
+  },
+  {
+    id: 2,
+    title: 'vk',
+    image: 'vk.png',
+    link: '#'
+  },
+  {
+    id: 3,
+    title: 'facebook',
+    image: 'fb.png',
+    link: '#'
+  }
+]
+
+// =====================================================
+
+export const offers_menu = [
+  {
+    id: 1,
+    title: 'Novelties',
+    link: '#',
+    active: true
+  },
+  {
+    id: 2,
+    title: 'Promotions',
+    link: '#',
+    active: false
+  },
+  {
+    id: 3,
+    title: 'Sale hits',
+    link: '#',
+    active: false
+  }
+]
+//  =====================================================
+
+export const novelties_list = [
+  {
+    id: 1,
+    title: 'Screwdriver bit',
+    tag: 'new',
+    price: 500,
+    discount_price: 720,
+    in_stock: true,
+    image: 'bit.png',
+    link: '#'
+  },
+  {
+    id: 2,
+    title: 'Garden pitchfork',
+    tag: 'new',
+    price: 500,
+    discount_price: 720,
+    in_stock: true,
+    image: 'pitchfork.png',
+    link: '#'
+  },
+  {
+    id: 3,
+    title: 'Metal scissors',
+    tag: 'new',
+    price: 500,
+    discount_price: 720,
+    in_stock: true,
+    image: 'metal_scissors.png',
+    link: '#'
+  },
+  {
+    id: 4,
+    title: 'Snow shovel',
+    tag: 'new',
+    price: 500,
+    discount_price: 720,
+    in_stock: true,
+    image: 'snow_shovel.png',
+    link: '#'
+  },
+  {
+    id: 5,
+    title: 'Screwdriver',
+    tag: 'new',
+    price: 500,
+    discount_price: 720,
+    in_stock: true,
+    image: 'screwdriver.png',
+    link: '#'
+  },
+  {
+    id: 6,
+    title: 'Some kind of bullshit',
+    tag: 'new',
+    price: 500,
+    discount_price: 720,
+    in_stock: true,
+    image: 'bullshit.png',
     link: '#'
   }
 ]
